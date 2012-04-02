@@ -1,0 +1,27 @@
+/* style.css
+ * Sticky footer
+ * by Michelle Sharer 2012 
+ */
+
+/* If your footer is appearing a tiny bit below where it should be,
+ * it might be because you forgot the following property. If your
+ * site was relying on this property, add {margin:5px;} to your
+ * div.wrapper element 
+ */
+body {
+    margin:0px; /* required for footer to work */
+}
+
+/* The only part that's required for the footer functionality
+ * is the height property. If you forget to include this, the footer
+ * won't stick perfectly to the bottom of the page. The height
+ * does not have to be 100px. 
+ */
+div.footer {
+    height:100px; /* required for footer to work */
+
+    background:#ccc; /* just for visibility purposes 
+                      * not required for footer functionality */
+    text-align:center; /* just for visibility purposes
+                        * not required for footer functionality */
+}
