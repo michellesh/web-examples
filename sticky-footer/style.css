@@ -16,6 +16,9 @@ body {
  * is the height property. If you forget to include this, the footer
  * won't stick perfectly to the bottom of the page. The height
  * does not have to be 100px. 
+ *
+ * If you're adding a border to your footer, see a note in the 
+ * footer.js file
  */
 div.footer {
     height:100px; /* required for footer to work */
